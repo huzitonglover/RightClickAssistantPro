@@ -101,12 +101,81 @@ scripts/                       打包与本地测试环境清理脚本
 
 ## English
 
-**RightClick Assistant Pro** (RightMenu Pro) is an open-source Finder context-menu (right-click menu) enhancer for macOS.
+**RightClick Assistant Pro (RightMenu Pro)** — an open-source super right-click menu enhancer for Mac Finder, with every Pro feature open source.
 
-**Features:** create new files from templates (Office, iWork, WPS, Markdown, PSD, AI…), change folder icons, copy path / file name, copy / move / cut / paste, batch rename, clean up empty folders, encrypted ZIP compression and extraction, open in Terminal, QR code recognition, image text extraction (OCR), screenshots, AirDrop, show / hide hidden files, lock screen, and more.
+New files from the context menu · Custom folder icons · Copy path · Encrypted ZIP · Batch rename
 
-**Install:** get it from the [Mac App Store](https://apps.apple.com/cn/app/rightmenupro-new-file-creator/id6777939731), then enable `AssistantFinderExtension` in **System Settings → General → Login Items & Extensions → Finder Extensions**.
+### ✨ Features
 
-**Build from source:** open `RightClickAssistantPro.xcodeproj` in Xcode 16+, set your own Team, Bundle Identifiers and App Group for both targets, then run the `RightClickAssistantPro` scheme.
+Available right from the Finder context menu:
 
-**License:** source code is licensed under [GPL-3.0](LICENSE). The app name and icon are not covered by the license; please rename and rebrand derivative works. Third-party brand icons remain the property of their respective owners.
+| Category | Features |
+| --- | --- |
+| 📄 New File | Create Word / Excel / PowerPoint / Pages / Numbers / Keynote / WPS / Markdown / TXT / RTF / PSD / AI files and more |
+| 🎨 Appearance | Change folder icons, show / hide hidden files, appearance settings |
+| 📋 Copy | Copy path, copy file name, copy to, move to, cut, paste |
+| 🗂 Organize | Batch rename, clean up empty folders, dissolve folder, delete immediately, undo |
+| 🗜 Archive | Create encrypted ZIP, extract ZIP (password-protected archives supported) |
+| 🛠 Tools | Open with favorite apps, favorite folders, open in Terminal, file info, QR code recognition, image text extraction (OCR), screenshot, AirDrop, send shortcut to Desktop, lock screen |
+
+<p>
+<img src="AppStoreScreenshots/appstore-screenshot-01-toolbox.png" width="32%">
+<img src="AppStoreScreenshots/appstore-screenshot-02-new-file.png" width="32%">
+<img src="AppStoreScreenshots/appstore-screenshot-03-folder-icons.png" width="32%">
+</p>
+
+### 📦 Installation
+
+**Recommended:** install from the [Mac App Store](https://apps.apple.com/cn/app/rightmenupro-new-file-creator/id6777939731) for one-click installation and automatic updates. It's also the most direct way to support the developer ❤️
+
+After installing, enable `AssistantFinderExtension` in **System Settings → General → Login Items & Extensions → Finder Extensions**.
+
+### 🔨 Build from Source
+
+Requirements: Xcode 16+, macOS 12.0+
+
+```bash
+git clone https://github.com/huzitonglover/RightClickAssistantPro.git
+cd RightClickAssistantPro
+open RightClickAssistantPro.xcodeproj
+```
+
+1. In Xcode, select the `RightClickAssistantPro` and `AssistantFinderExtension` targets in turn, and set **Signing & Capabilities → Team** to your own developer account.
+2. Change the Bundle Identifiers and the App Group (`group.rightPro.touch.com`) to your own. Both targets must use the same App Group.
+3. Run the `RightClickAssistantPro` scheme.
+
+To verify that the project builds (no code signing required):
+
+```bash
+xcodebuild -project RightClickAssistantPro.xcodeproj -scheme RightClickAssistantPro \
+  -destination 'platform=macOS' CODE_SIGNING_ALLOWED=NO build
+```
+
+### 🧱 Project Structure
+
+```
+RightClickAssistantPro/        Main app (settings UI, action execution)
+  App/Entry                    AppDelegate and context-menu action implementations
+  App/Features                 Feature modules
+  App/Settings                 Settings UI
+  Resources                    Blank templates used for new files
+AssistantFinderExtension/      Finder Sync extension (builds the context menu, dispatches actions)
+scripts/                       Packaging and local test-environment cleanup scripts
+```
+
+### 🤝 Contributing
+
+Issues and pull requests are welcome! Please make sure the project builds before submitting a PR.
+
+### 📄 License
+
+The source code is licensed under the [GNU GPL v3.0](LICENSE).
+
+The names "右键工具 Pro" and "RightMenu Pro" and the app icon belong to the author and are not covered by the open-source license. Please use a different name and icon for derivative works.
+
+This is independently developed open-source software and is not affiliated with any other App Store apps named "超级右键" (Super Right Click) or "超级右键专业版", or with their developers. The phrase "super right-click" is used only to describe this category of enhanced context-menu tools. Third-party brand icons that appear in this project (such as QQ, WeChat, Google, Apple and Microsoft Office) are trademarks of their respective owners. They are used only to identify the corresponding apps and are not covered by this project's license.
+
+### 🙏 Acknowledgements
+
+- [ZIPFoundation](https://github.com/weichsel/ZIPFoundation) (MIT)
+- [swift-collections](https://github.com/apple/swift-collections) (Apache-2.0)
