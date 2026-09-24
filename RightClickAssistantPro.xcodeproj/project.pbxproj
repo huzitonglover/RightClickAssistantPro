@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0000000000000000000001 /* AssistantAboutSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000019 /* AssistantAboutSettingsView.swift */; };
+		BF0000000000000000000002 /* QuickActionsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000001A /* QuickActionsSettingsView.swift */; };
+		BF0000000000000000000003 /* OpenWithAppsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000001B /* OpenWithAppsSettingsView.swift */; };
+		BF0000000000000000000004 /* FavoriteFoldersSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000001C /* FavoriteFoldersSettingsView.swift */; };
+		BF0000000000000000000005 /* AssistantGeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000001D /* AssistantGeneralSettingsView.swift */; };
+		BF0000000000000000000006 /* NewFileTemplatesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000001E /* NewFileTemplatesSettingsView.swift */; };
+		BF0000000000000000000007 /* AssistantSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000001F /* AssistantSettingsView.swift */; };
+		BF0000000000000000000008 /* AssistantSettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000020 /* AssistantSettingsWindow.swift */; };
+		BF0000000000000000000009 /* AssistantRuntimeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000016 /* AssistantRuntimeState.swift */; };
+		BF000000000000000000000B /* RightClickAssistantProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000015 /* RightClickAssistantProApp.swift */; };
+		BF000000000000000000000C /* SharedModelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000021 /* SharedModelStore.swift */; };
+		BF000000000000000000000D /* AuthorizedDirectoryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000022 /* AuthorizedDirectoryRecord.swift */; };
+		BF000000000000000000000E /* AssistantContextModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000023 /* AssistantContextModels.swift */; };
+		BF000000000000000000000F /* AssistantLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000024 /* AssistantLogger.swift */; };
+		BF0000000000000000000010 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000025 /* Constants.swift */; };
+		BF0000000000000000000011 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000026 /* Extension+.swift */; };
+		BF0000000000000000000012 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000027 /* LaunchAtLogin.swift */; };
+		BF0000000000000000000013 /* ExtensionMessageBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000028 /* ExtensionMessageBus.swift */; };
+		BF0000000000000000000014 /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000029 /* SharedPreferences.swift */; };
+		BF0000000000000000000017 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000002C /* Utils.swift */; };
+		BF0000000000000000000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000010 /* Assets.xcassets */; };
+		BF000000000000000000001A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000014 /* Localizable.xcstrings */; };
+		BF000000000000000000001B /* assistant-seed.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000018 /* assistant-seed.xlsx */; };
+		BF000000000000000000001C /* AssistantFinderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000002E /* AssistantFinderExtension.swift */; };
+		BF000000000000000000001E /* AssistantRuntimeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000016 /* AssistantRuntimeState.swift */; };
+		BF000000000000000000001F /* SharedModelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000021 /* SharedModelStore.swift */; };
+		BF0000000000000000000020 /* AuthorizedDirectoryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000022 /* AuthorizedDirectoryRecord.swift */; };
+		BF0000000000000000000021 /* AssistantContextModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000023 /* AssistantContextModels.swift */; };
+		BF0000000000000000000022 /* AssistantLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000024 /* AssistantLogger.swift */; };
+		BF0000000000000000000023 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000025 /* Constants.swift */; };
+		BF0000000000000000000024 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000026 /* Extension+.swift */; };
+		BF0000000000000000000025 /* ExtensionMessageBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000028 /* ExtensionMessageBus.swift */; };
+		BF0000000000000000000026 /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000029 /* SharedPreferences.swift */; };
+		BF0000000000000000000029 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000002C /* Utils.swift */; };
+		BF000000000000000000002A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000010 /* Assets.xcassets */; };
+		BF000000000000000000002B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000014 /* Localizable.xcstrings */; };
+		BF000000000000000000002C /* assistant-seed.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000018 /* assistant-seed.xlsx */; };
+		BF000000000000000000002D /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = PKG0000000000000000000003 /* OrderedCollections */; };
+		BF000000000000000000002E /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = PKG0000000000000000000004 /* ZIPFoundation */; };
+		BF000000000000000000002F /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = PKG0000000000000000000005 /* OrderedCollections */; };
+		BF0000000000000000000030 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = PKG0000000000000000000006 /* ZIPFoundation */; };
+		BF0000000000000000000031 /* AssistantFinderExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000002 /* AssistantFinderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF0000000000000000000032 /* ContactSettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000032 /* ContactSettingsTabView.swift */; };
+		BF0000000000000000000033 /* FileInfoCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000033 /* FileInfoCenterView.swift */; };
+		BF0000000000000000000034 /* assistant-seed.docx in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000034 /* assistant-seed.docx */; };
+		BF0000000000000000000035 /* assistant-seed.pptx in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000035 /* assistant-seed.pptx */; };
+		BF0000000000000000000036 /* assistant-seed.docx in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000034 /* assistant-seed.docx */; };
+		BF0000000000000000000037 /* assistant-seed.pptx in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000035 /* assistant-seed.pptx */; };
+		BF0000000000000000000038 /* AssistantSettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000036 /* AssistantSettingsTab.swift */; };
+		BF0000000000000000000039 /* AssistantStateSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000037 /* AssistantStateSnapshotStore.swift */; };
+		BF000000000000000000003A /* AuthorizedDirectoryRecoveryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000038 /* AuthorizedDirectoryRecoveryCoordinator.swift */; };
+		BF000000000000000000003B /* FinderContextMenuComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000039 /* FinderContextMenuComposer.swift */; };
+		BF000000000000000000003C /* FinderSelectionContextResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000003A /* FinderSelectionContextResolver.swift */; };
+		BF000000000000000000003D /* AssistantStateSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000037 /* AssistantStateSnapshotStore.swift */; };
+		BF000000000000000000003E /* AuthorizedDirectoryRecoveryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000038 /* AuthorizedDirectoryRecoveryCoordinator.swift */; };
+		BF0000000000000000000040 /* AssistantOperationStateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000040 /* AssistantOperationStateSupport.swift */; };
+		BF0000000000000000000041 /* AssistantFeedbackCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000041 /* AssistantFeedbackCenter.swift */; };
+		BF0000000000000000000042 /* RCAAppDelegate+Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000042 /* RCAAppDelegate+Lifecycle.swift */; };
+		BF0000000000000000000043 /* RCAAppDelegate+OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000043 /* RCAAppDelegate+OperationState.swift */; };
+		BF0000000000000000000044 /* RCAAppDelegate+SelectionActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000044 /* RCAAppDelegate+SelectionActions.swift */; };
+		BF0000000000000000000045 /* RCAAppDelegate+TemplateLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000045 /* RCAAppDelegate+TemplateLaunch.swift */; };
+		BF0000000000000000000046 /* RCAAppDelegate+VisibilityAndSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000046 /* RCAAppDelegate+VisibilityAndSharing.swift */; };
+		BF0000000000000000000047 /* OpenWithApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000047 /* OpenWithApplication.swift */; };
+		BF0000000000000000000048 /* AuthorizedDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000048 /* AuthorizedDirectory.swift */; };
+		BF0000000000000000000049 /* FavoriteDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000049 /* FavoriteDirectory.swift */; };
+		BF000000000000000000004A /* ContextQuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004A /* ContextQuickAction.swift */; };
+		BF000000000000000000004B /* NewFileTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004B /* NewFileTemplate.swift */; };
+		BF000000000000000000004C /* AssistantSharedModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004C /* AssistantSharedModelContainerFactory.swift */; };
+		BF000000000000000000004D /* FavoriteFoldersSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004D /* FavoriteFoldersSupport.swift */; };
+		BF000000000000000000004E /* GeneralSettingsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004E /* GeneralSettingsSupport.swift */; };
+		BF000000000000000000004F /* NewFileTemplateSettingsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004F /* NewFileTemplateSettingsSupport.swift */; };
+		BF0000000000000000000050 /* OpenWithApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000047 /* OpenWithApplication.swift */; };
+		BF0000000000000000000051 /* AuthorizedDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000048 /* AuthorizedDirectory.swift */; };
+		BF0000000000000000000052 /* FavoriteDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000049 /* FavoriteDirectory.swift */; };
+		BF0000000000000000000053 /* ContextQuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004A /* ContextQuickAction.swift */; };
+		BF0000000000000000000054 /* NewFileTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004B /* NewFileTemplate.swift */; };
+		BF0000000000000000000055 /* AssistantSharedModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000004C /* AssistantSharedModelContainerFactory.swift */; };
+		BF0000000000000000000056 /* QuickActionsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000056 /* QuickActionsSupport.swift */; };
+		BF0000000000000000000057 /* BatchRenameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000057 /* BatchRenameView.swift */; };
+		BF0000000000000000000058 /* QRCodeRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000058 /* QRCodeRecognitionView.swift */; };
+		BF0000000000000000000064 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = VG0000000000000000000001 /* InfoPlist.strings */; };
+		BF0000000000000000000066 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = VG0000000000000000000002 /* InfoPlist.strings */; };
+		BF000000000000000000006D /* assistant-seed.txt in Resources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000006D /* assistant-seed.txt */; };
+		BF000000000000000000006E /* assistant-seed.md in Resources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000006E /* assistant-seed.md */; };
+		BF000000000000000000006F /* assistant-seed.xml in Resources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000006F /* assistant-seed.xml */; };
+		BF0000000000000000000070 /* assistant-seed.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000070 /* assistant-seed.rtf */; };
+		BF0000000000000000000071 /* assistant-seed.wps in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000071 /* assistant-seed.wps */; };
+		BF0000000000000000000072 /* assistant-seed.et in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000072 /* assistant-seed.et */; };
+		BF0000000000000000000073 /* assistant-seed.dps in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000073 /* assistant-seed.dps */; };
+		BF0000000000000000000074 /* assistant-seed.pages in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000074 /* assistant-seed.pages */; };
+		BF0000000000000000000075 /* assistant-seed.numbers in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000075 /* assistant-seed.numbers */; };
+		BF0000000000000000000076 /* assistant-seed.key in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000076 /* assistant-seed.key */; };
+		BF0000000000000000000077 /* assistant-seed.ai in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000077 /* assistant-seed.ai */; };
+		BF0000000000000000000078 /* assistant-seed.psd in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000078 /* assistant-seed.psd */; };
+		BF0000000000000000000079 /* assistant-seed.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000070 /* assistant-seed.rtf */; };
+		BF000000000000000000007A /* assistant-seed.wps in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000071 /* assistant-seed.wps */; };
+		BF000000000000000000007B /* assistant-seed.et in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000072 /* assistant-seed.et */; };
+		BF000000000000000000007C /* assistant-seed.dps in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000073 /* assistant-seed.dps */; };
+		BF000000000000000000007D /* assistant-seed.pages in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000074 /* assistant-seed.pages */; };
+		BF000000000000000000007E /* assistant-seed.numbers in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000075 /* assistant-seed.numbers */; };
+		BF000000000000000000007F /* assistant-seed.key in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000076 /* assistant-seed.key */; };
+		BF0000000000000000000080 /* assistant-seed.ai in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000077 /* assistant-seed.ai */; };
+		BF0000000000000000000081 /* assistant-seed.psd in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000078 /* assistant-seed.psd */; };
+		BF0000000000000000000082 /* assistant-seed.txt in Resources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000006D /* assistant-seed.txt */; };
+		BF0000000000000000000083 /* assistant-seed.md in Resources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000006E /* assistant-seed.md */; };
+		BF0000000000000000000084 /* assistant-seed.xml in Resources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000006F /* assistant-seed.xml */; };
+		BF0000000000000000000085 /* FeatureCenterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000079 /* FeatureCenterModule.swift */; };
+		BF0000000000000000000086 /* FeatureCenterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000007A /* FeatureCenterSettingsView.swift */; };
+		BF0000000000000000000087 /* ShortcutAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000007B /* ShortcutAssistantView.swift */; };
+		BF0000000000000000000089 /* RCAAppDelegate+FeatureCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR000000000000000000007D /* RCAAppDelegate+FeatureCenter.swift */; };
+		BF0000000000000000000090 /* AssistantLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000090 /* AssistantLocalization.swift */; };
+		BF0000000000000000000091 /* AssistantLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000090 /* AssistantLocalization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		PRX000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = PRJ000000000000000000000B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = TGT0000000000000000000002;
+			remoteInfo = AssistantFinderExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		PHS0000000000000000000004 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF0000000000000000000031 /* AssistantFinderExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FR0000000000000000000001 /* 右键工具Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "右键工具Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR0000000000000000000002 /* AssistantFinderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AssistantFinderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR0000000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FR0000000000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR0000000000000000000013 /* RightClickAssistantPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightClickAssistantPro.entitlements; sourceTree = "<group>"; };
+		FR0000000000000000000014 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		FR0000000000000000000015 /* RightClickAssistantProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightClickAssistantProApp.swift; sourceTree = "<group>"; };
+		FR0000000000000000000016 /* AssistantRuntimeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantRuntimeState.swift; sourceTree = "<group>"; };
+		FR0000000000000000000018 /* assistant-seed.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.xlsx"; sourceTree = "<group>"; };
+		FR0000000000000000000019 /* AssistantAboutSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantAboutSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000001A /* QuickActionsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000001B /* OpenWithAppsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWithAppsSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000001C /* FavoriteFoldersSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoldersSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000001D /* AssistantGeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantGeneralSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000001E /* NewFileTemplatesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFileTemplatesSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000001F /* AssistantSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantSettingsView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000020 /* AssistantSettingsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantSettingsWindow.swift; sourceTree = "<group>"; };
+		FR0000000000000000000021 /* SharedModelStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedModelStore.swift; sourceTree = "<group>"; };
+		FR0000000000000000000022 /* AuthorizedDirectoryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedDirectoryRecord.swift; sourceTree = "<group>"; };
+		FR0000000000000000000023 /* AssistantContextModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantContextModels.swift; sourceTree = "<group>"; };
+		FR0000000000000000000024 /* AssistantLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantLogger.swift; sourceTree = "<group>"; };
+		FR0000000000000000000025 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FR0000000000000000000026 /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000027 /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		FR0000000000000000000028 /* ExtensionMessageBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMessageBus.swift; sourceTree = "<group>"; };
+		FR0000000000000000000029 /* SharedPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPreferences.swift; sourceTree = "<group>"; };
+		FR000000000000000000002C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FR000000000000000000002D /* AssistantFinderExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AssistantFinderExtension.entitlements; sourceTree = "<group>"; };
+		FR000000000000000000002E /* AssistantFinderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantFinderExtension.swift; sourceTree = "<group>"; };
+		FR000000000000000000002F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FR0000000000000000000030 /* FinderMenuDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderMenuDispatching.swift; sourceTree = "<group>"; };
+		FR0000000000000000000032 /* ContactSettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSettingsTabView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000033 /* FileInfoCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfoCenterView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000034 /* assistant-seed.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.docx"; sourceTree = "<group>"; };
+		FR0000000000000000000035 /* assistant-seed.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.pptx"; sourceTree = "<group>"; };
+		FR0000000000000000000036 /* AssistantSettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantSettingsTab.swift; sourceTree = "<group>"; };
+		FR0000000000000000000037 /* AssistantStateSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantStateSnapshotStore.swift; sourceTree = "<group>"; };
+		FR0000000000000000000038 /* AuthorizedDirectoryRecoveryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedDirectoryRecoveryCoordinator.swift; sourceTree = "<group>"; };
+		FR0000000000000000000039 /* FinderContextMenuComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderContextMenuComposer.swift; sourceTree = "<group>"; };
+		FR000000000000000000003A /* FinderSelectionContextResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSelectionContextResolver.swift; sourceTree = "<group>"; };
+		FR0000000000000000000040 /* AssistantOperationStateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantOperationStateSupport.swift; sourceTree = "<group>"; };
+		FR0000000000000000000041 /* AssistantFeedbackCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantFeedbackCenter.swift; sourceTree = "<group>"; };
+		FR0000000000000000000042 /* RCAAppDelegate+Lifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCAAppDelegate+Lifecycle.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000043 /* RCAAppDelegate+OperationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCAAppDelegate+OperationState.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000044 /* RCAAppDelegate+SelectionActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCAAppDelegate+SelectionActions.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000045 /* RCAAppDelegate+TemplateLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCAAppDelegate+TemplateLaunch.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000046 /* RCAAppDelegate+VisibilityAndSharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCAAppDelegate+VisibilityAndSharing.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000047 /* OpenWithApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWithApplication.swift; sourceTree = "<group>"; };
+		FR0000000000000000000048 /* AuthorizedDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizedDirectory.swift; sourceTree = "<group>"; };
+		FR0000000000000000000049 /* FavoriteDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDirectory.swift; sourceTree = "<group>"; };
+		FR000000000000000000004A /* ContextQuickAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextQuickAction.swift; sourceTree = "<group>"; };
+		FR000000000000000000004B /* NewFileTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFileTemplate.swift; sourceTree = "<group>"; };
+		FR000000000000000000004C /* AssistantSharedModelContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantSharedModelContainerFactory.swift; sourceTree = "<group>"; };
+		FR000000000000000000004D /* FavoriteFoldersSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFoldersSupport.swift; sourceTree = "<group>"; };
+		FR000000000000000000004E /* GeneralSettingsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsSupport.swift; sourceTree = "<group>"; };
+		FR000000000000000000004F /* NewFileTemplateSettingsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFileTemplateSettingsSupport.swift; sourceTree = "<group>"; };
+		FR0000000000000000000056 /* QuickActionsSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsSupport.swift; sourceTree = "<group>"; };
+		FR0000000000000000000057 /* BatchRenameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchRenameView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000058 /* QRCodeRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeRecognitionView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FR0000000000000000000065 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		FR0000000000000000000066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RightClickAssistantPro/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		FR0000000000000000000067 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "RightClickAssistantPro/zh-Hans.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		FR000000000000000000006D /* assistant-seed.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "assistant-seed.txt"; sourceTree = "<group>"; };
+		FR000000000000000000006E /* assistant-seed.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = "assistant-seed.md"; sourceTree = "<group>"; };
+		FR000000000000000000006F /* assistant-seed.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "assistant-seed.xml"; sourceTree = "<group>"; };
+		FR0000000000000000000070 /* assistant-seed.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "assistant-seed.rtf"; sourceTree = "<group>"; };
+		FR0000000000000000000071 /* assistant-seed.wps */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.wps"; sourceTree = "<group>"; };
+		FR0000000000000000000072 /* assistant-seed.et */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.et"; sourceTree = "<group>"; };
+		FR0000000000000000000073 /* assistant-seed.dps */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.dps"; sourceTree = "<group>"; };
+		FR0000000000000000000074 /* assistant-seed.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.pages"; sourceTree = "<group>"; };
+		FR0000000000000000000075 /* assistant-seed.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.numbers"; sourceTree = "<group>"; };
+		FR0000000000000000000076 /* assistant-seed.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.key"; sourceTree = "<group>"; };
+		FR0000000000000000000077 /* assistant-seed.ai */ = {isa = PBXFileReference; lastKnownFileType = text; path = "assistant-seed.ai"; sourceTree = "<group>"; };
+		FR0000000000000000000078 /* assistant-seed.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "assistant-seed.psd"; sourceTree = "<group>"; };
+		FR0000000000000000000079 /* FeatureCenterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCenterModule.swift; sourceTree = "<group>"; };
+		FR000000000000000000007A /* FeatureCenterSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCenterSettingsView.swift; sourceTree = "<group>"; };
+		FR000000000000000000007B /* ShortcutAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutAssistantView.swift; sourceTree = "<group>"; };
+		FR000000000000000000007D /* RCAAppDelegate+FeatureCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCAAppDelegate+FeatureCenter.swift"; sourceTree = "<group>"; };
+		FR0000000000000000000090 /* AssistantLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantLocalization.swift; sourceTree = "<group>"; };
+		FR00000000000000000000A0 /* super-right-click */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "super-right-click"; path = "/Users/tanshaofei/super-right-click"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PHS0000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF000000000000000000002D /* OrderedCollections in Frameworks */,
+				BF000000000000000000002E /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PHS0000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF000000000000000000002F /* OrderedCollections in Frameworks */,
+				BF0000000000000000000030 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GRP0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				GRP0000000000000000000003 /* RightClickAssistantPro */,
+				GRP0000000000000000000004 /* AssistantFinderExtension */,
+				FR00000000000000000000A0 /* super-right-click */,
+				GRP0000000000000000000002 /* Products */,
+				GRP0000000000000000000005 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000001 /* 右键工具Pro.app */,
+				FR0000000000000000000002 /* AssistantFinderExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000003 /* RightClickAssistantPro */ = {
+			isa = PBXGroup;
+			children = (
+				GRP0000000000000000000007 /* App */,
+				GRP0000000000000000000008 /* SharedCore */,
+				GRP0000000000000000000006 /* Resources */,
+				FR0000000000000000000012 /* Info.plist */,
+				FR0000000000000000000010 /* Assets.xcassets */,
+				FR0000000000000000000013 /* RightClickAssistantPro.entitlements */,
+				FR0000000000000000000014 /* Localizable.xcstrings */,
+				VG0000000000000000000002 /* InfoPlist.strings */,
+			);
+			path = RightClickAssistantPro;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000004 /* AssistantFinderExtension */ = {
+			isa = PBXGroup;
+			children = (
+				GRP0000000000000000000020 /* Entry */,
+				GRP0000000000000000000021 /* Actions */,
+				GRP0000000000000000000022 /* MenuBuilder */,
+				GRP0000000000000000000023 /* Selection */,
+				FR000000000000000000002D /* AssistantFinderExtension.entitlements */,
+				FR000000000000000000002F /* Info.plist */,
+				VG0000000000000000000001 /* InfoPlist.strings */,
+			);
+			path = AssistantFinderExtension;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000018 /* assistant-seed.xlsx */,
+				FR0000000000000000000034 /* assistant-seed.docx */,
+				FR0000000000000000000035 /* assistant-seed.pptx */,
+				FR000000000000000000006D /* assistant-seed.txt */,
+				FR000000000000000000006E /* assistant-seed.md */,
+				FR000000000000000000006F /* assistant-seed.xml */,
+				FR0000000000000000000070 /* assistant-seed.rtf */,
+				FR0000000000000000000071 /* assistant-seed.wps */,
+				FR0000000000000000000072 /* assistant-seed.et */,
+				FR0000000000000000000073 /* assistant-seed.dps */,
+				FR0000000000000000000074 /* assistant-seed.pages */,
+				FR0000000000000000000075 /* assistant-seed.numbers */,
+				FR0000000000000000000076 /* assistant-seed.key */,
+				FR0000000000000000000077 /* assistant-seed.ai */,
+				FR0000000000000000000078 /* assistant-seed.psd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000007 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				GRP0000000000000000000009 /* Entry */,
+				GRP000000000000000000000C /* Runtime */,
+				GRP000000000000000000000D /* Settings */,
+				GRP000000000000000000000F /* Features */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000008 /* SharedCore */ = {
+			isa = PBXGroup;
+			children = (
+				GRP0000000000000000000018 /* Domain */,
+				GRP0000000000000000000019 /* Logging */,
+				GRP000000000000000000001A /* Messaging */,
+				GRP000000000000000000001B /* Persistence */,
+				GRP000000000000000000001C /* Preferences */,
+				GRP000000000000000000001D /* Support */,
+				GRP000000000000000000001E /* System */,
+				GRP000000000000000000001F /* Utilities */,
+			);
+			path = SharedCore;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000009 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000015 /* RightClickAssistantProApp.swift */,
+				FR0000000000000000000040 /* AssistantOperationStateSupport.swift */,
+				FR0000000000000000000041 /* AssistantFeedbackCenter.swift */,
+				FR0000000000000000000042 /* RCAAppDelegate+Lifecycle.swift */,
+				FR0000000000000000000043 /* RCAAppDelegate+OperationState.swift */,
+				FR0000000000000000000044 /* RCAAppDelegate+SelectionActions.swift */,
+				FR0000000000000000000045 /* RCAAppDelegate+TemplateLaunch.swift */,
+				FR0000000000000000000046 /* RCAAppDelegate+VisibilityAndSharing.swift */,
+				FR000000000000000000007D /* RCAAppDelegate+FeatureCenter.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000000C /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000016 /* AssistantRuntimeState.swift */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000000D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000001F /* AssistantSettingsView.swift */,
+				FR0000000000000000000020 /* AssistantSettingsWindow.swift */,
+				GRP000000000000000000000E /* SettingsNavigation */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000000E /* SettingsNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000036 /* AssistantSettingsTab.swift */,
+			);
+			path = SettingsNavigation;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000000F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				GRP0000000000000000000010 /* About */,
+				GRP0000000000000000000024 /* BatchRename */,
+				GRP0000000000000000000011 /* Contact */,
+				GRP0000000000000000000012 /* FavoriteFolders */,
+				GRP0000000000000000000026 /* FeatureCenter */,
+				GRP0000000000000000000013 /* FileInfoCenter */,
+				GRP0000000000000000000014 /* General */,
+				GRP0000000000000000000015 /* NewFileTemplates */,
+				GRP0000000000000000000016 /* OpenWith */,
+				GRP0000000000000000000025 /* QRCodeRecognition */,
+				GRP0000000000000000000017 /* QuickActions */,
+				GRP0000000000000000000027 /* ShortcutAssistant */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000010 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000019 /* AssistantAboutSettingsView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000011 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000032 /* ContactSettingsTabView.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000012 /* FavoriteFolders */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000001C /* FavoriteFoldersSettingsView.swift */,
+				FR000000000000000000004D /* FavoriteFoldersSupport.swift */,
+			);
+			path = FavoriteFolders;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000013 /* FileInfoCenter */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000033 /* FileInfoCenterView.swift */,
+			);
+			path = FileInfoCenter;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000014 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000001D /* AssistantGeneralSettingsView.swift */,
+				FR000000000000000000004E /* GeneralSettingsSupport.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000015 /* NewFileTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000001E /* NewFileTemplatesSettingsView.swift */,
+				FR000000000000000000004F /* NewFileTemplateSettingsSupport.swift */,
+			);
+			path = NewFileTemplates;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000016 /* OpenWith */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000001B /* OpenWithAppsSettingsView.swift */,
+			);
+			path = OpenWith;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000017 /* QuickActions */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000001A /* QuickActionsSettingsView.swift */,
+				FR0000000000000000000056 /* QuickActionsSupport.swift */,
+			);
+			path = QuickActions;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000018 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000023 /* AssistantContextModels.swift */,
+				FR0000000000000000000047 /* OpenWithApplication.swift */,
+				FR0000000000000000000048 /* AuthorizedDirectory.swift */,
+				FR0000000000000000000049 /* FavoriteDirectory.swift */,
+				FR000000000000000000004A /* ContextQuickAction.swift */,
+				FR000000000000000000004B /* NewFileTemplate.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000019 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000024 /* AssistantLogger.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000001A /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000028 /* ExtensionMessageBus.swift */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000001B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000022 /* AuthorizedDirectoryRecord.swift */,
+				FR0000000000000000000021 /* SharedModelStore.swift */,
+				FR000000000000000000004C /* AssistantSharedModelContainerFactory.swift */,
+				FR0000000000000000000037 /* AssistantStateSnapshotStore.swift */,
+				FR0000000000000000000038 /* AuthorizedDirectoryRecoveryCoordinator.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000001C /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000029 /* SharedPreferences.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000001D /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000025 /* Constants.swift */,
+				FR0000000000000000000090 /* AssistantLocalization.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000001E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000027 /* LaunchAtLogin.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		GRP000000000000000000001F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000026 /* Extension+.swift */,
+				FR000000000000000000002C /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000020 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000002E /* AssistantFinderExtension.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000021 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000030 /* FinderMenuDispatching.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000022 /* MenuBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000039 /* FinderContextMenuComposer.swift */,
+			);
+			path = MenuBuilder;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000023 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000003A /* FinderSelectionContextResolver.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000024 /* BatchRename */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000057 /* BatchRenameView.swift */,
+			);
+			path = BatchRename;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000025 /* QRCodeRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000058 /* QRCodeRecognitionView.swift */,
+			);
+			path = QRCodeRecognition;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000026 /* FeatureCenter */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000079 /* FeatureCenterModule.swift */,
+				FR000000000000000000007A /* FeatureCenterSettingsView.swift */,
+			);
+			path = FeatureCenter;
+			sourceTree = "<group>";
+		};
+		GRP0000000000000000000027 /* ShortcutAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				FR000000000000000000007B /* ShortcutAssistantView.swift */,
+			);
+			path = ShortcutAssistant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TGT0000000000000000000001 /* RightClickAssistantPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFG0000000000000000000003 /* Build configuration list for PBXNativeTarget "RightClickAssistantPro" */;
+			buildPhases = (
+				PHS0000000000000000000001 /* Sources */,
+				PHS0000000000000000000002 /* Frameworks */,
+				PHS0000000000000000000003 /* Resources */,
+				PHS0000000000000000000004 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP0000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = RightClickAssistantPro;
+			packageProductDependencies = (
+				PKG0000000000000000000003 /* OrderedCollections */,
+				PKG0000000000000000000004 /* ZIPFoundation */,
+			);
+			productName = RightClickAssistantPro;
+			productReference = FR0000000000000000000001 /* 右键工具Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		TGT0000000000000000000002 /* AssistantFinderExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFG0000000000000000000004 /* Build configuration list for PBXNativeTarget "AssistantFinderExtension" */;
+			buildPhases = (
+				PHS0000000000000000000005 /* Sources */,
+				PHS0000000000000000000006 /* Frameworks */,
+				PHS0000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssistantFinderExtension;
+			packageProductDependencies = (
+				PKG0000000000000000000005 /* OrderedCollections */,
+				PKG0000000000000000000006 /* ZIPFoundation */,
+			);
+			productName = AssistantFinderExtension;
+			productReference = FR0000000000000000000002 /* AssistantFinderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PRJ000000000000000000000B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					TGT0000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					TGT0000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CFG0000000000000000000001 /* Build configuration list for PBXProject "RightClickAssistantPro" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = GRP0000000000000000000001;
+			packageReferences = (
+				PKG0000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				PKG0000000000000000000002 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = GRP0000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TGT0000000000000000000001 /* RightClickAssistantPro */,
+				TGT0000000000000000000002 /* AssistantFinderExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		PHS0000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0000000000000000000018 /* Assets.xcassets in Resources */,
+				BF000000000000000000001B /* assistant-seed.xlsx in Resources */,
+				BF0000000000000000000034 /* assistant-seed.docx in Resources */,
+				BF0000000000000000000035 /* assistant-seed.pptx in Resources */,
+				BF000000000000000000006D /* assistant-seed.txt in Resources */,
+				BF000000000000000000006E /* assistant-seed.md in Resources */,
+				BF000000000000000000006F /* assistant-seed.xml in Resources */,
+				BF0000000000000000000070 /* assistant-seed.rtf in Resources */,
+				BF0000000000000000000071 /* assistant-seed.wps in Resources */,
+				BF0000000000000000000072 /* assistant-seed.et in Resources */,
+				BF0000000000000000000073 /* assistant-seed.dps in Resources */,
+				BF0000000000000000000074 /* assistant-seed.pages in Resources */,
+				BF0000000000000000000075 /* assistant-seed.numbers in Resources */,
+				BF0000000000000000000076 /* assistant-seed.key in Resources */,
+				BF0000000000000000000077 /* assistant-seed.ai in Resources */,
+				BF0000000000000000000078 /* assistant-seed.psd in Resources */,
+				BF000000000000000000001A /* Localizable.xcstrings in Resources */,
+				BF0000000000000000000066 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PHS0000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF000000000000000000002A /* Assets.xcassets in Resources */,
+				BF000000000000000000002C /* assistant-seed.xlsx in Resources */,
+				BF0000000000000000000036 /* assistant-seed.docx in Resources */,
+				BF0000000000000000000037 /* assistant-seed.pptx in Resources */,
+				BF0000000000000000000082 /* assistant-seed.txt in Resources */,
+				BF0000000000000000000083 /* assistant-seed.md in Resources */,
+				BF0000000000000000000084 /* assistant-seed.xml in Resources */,
+				BF0000000000000000000079 /* assistant-seed.rtf in Resources */,
+				BF000000000000000000007A /* assistant-seed.wps in Resources */,
+				BF000000000000000000007B /* assistant-seed.et in Resources */,
+				BF000000000000000000007C /* assistant-seed.dps in Resources */,
+				BF000000000000000000007D /* assistant-seed.pages in Resources */,
+				BF000000000000000000007E /* assistant-seed.numbers in Resources */,
+				BF000000000000000000007F /* assistant-seed.key in Resources */,
+				BF0000000000000000000080 /* assistant-seed.ai in Resources */,
+				BF0000000000000000000081 /* assistant-seed.psd in Resources */,
+				BF000000000000000000002B /* Localizable.xcstrings in Resources */,
+				BF0000000000000000000064 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PHS0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0000000000000000000004 /* FavoriteFoldersSettingsView.swift in Sources */,
+				BF000000000000000000004D /* FavoriteFoldersSupport.swift in Sources */,
+				BF0000000000000000000009 /* AssistantRuntimeState.swift in Sources */,
+				BF0000000000000000000002 /* QuickActionsSettingsView.swift in Sources */,
+				BF0000000000000000000056 /* QuickActionsSupport.swift in Sources */,
+				BF0000000000000000000001 /* AssistantAboutSettingsView.swift in Sources */,
+				BF0000000000000000000032 /* ContactSettingsTabView.swift in Sources */,
+				BF0000000000000000000008 /* AssistantSettingsWindow.swift in Sources */,
+				BF0000000000000000000006 /* NewFileTemplatesSettingsView.swift in Sources */,
+				BF000000000000000000004F /* NewFileTemplateSettingsSupport.swift in Sources */,
+				BF0000000000000000000038 /* AssistantSettingsTab.swift in Sources */,
+				BF000000000000000000000E /* AssistantContextModels.swift in Sources */,
+				BF0000000000000000000047 /* OpenWithApplication.swift in Sources */,
+				BF0000000000000000000048 /* AuthorizedDirectory.swift in Sources */,
+				BF0000000000000000000049 /* FavoriteDirectory.swift in Sources */,
+				BF000000000000000000004A /* ContextQuickAction.swift in Sources */,
+				BF000000000000000000004B /* NewFileTemplate.swift in Sources */,
+				BF0000000000000000000012 /* LaunchAtLogin.swift in Sources */,
+				BF0000000000000000000007 /* AssistantSettingsView.swift in Sources */,
+				BF000000000000000000000D /* AuthorizedDirectoryRecord.swift in Sources */,
+				BF000000000000000000003A /* AuthorizedDirectoryRecoveryCoordinator.swift in Sources */,
+				BF0000000000000000000013 /* ExtensionMessageBus.swift in Sources */,
+				BF000000000000000000000F /* AssistantLogger.swift in Sources */,
+				BF0000000000000000000014 /* SharedPreferences.swift in Sources */,
+				BF0000000000000000000033 /* FileInfoCenterView.swift in Sources */,
+				BF0000000000000000000003 /* OpenWithAppsSettingsView.swift in Sources */,
+				BF0000000000000000000057 /* BatchRenameView.swift in Sources */,
+				BF0000000000000000000058 /* QRCodeRecognitionView.swift in Sources */,
+				BF0000000000000000000005 /* AssistantGeneralSettingsView.swift in Sources */,
+				BF000000000000000000004E /* GeneralSettingsSupport.swift in Sources */,
+				BF0000000000000000000011 /* Extension+.swift in Sources */,
+				BF000000000000000000000B /* RightClickAssistantProApp.swift in Sources */,
+				BF0000000000000000000089 /* RCAAppDelegate+FeatureCenter.swift in Sources */,
+				BF0000000000000000000040 /* AssistantOperationStateSupport.swift in Sources */,
+				BF0000000000000000000041 /* AssistantFeedbackCenter.swift in Sources */,
+				BF0000000000000000000042 /* RCAAppDelegate+Lifecycle.swift in Sources */,
+				BF0000000000000000000043 /* RCAAppDelegate+OperationState.swift in Sources */,
+				BF0000000000000000000044 /* RCAAppDelegate+SelectionActions.swift in Sources */,
+				BF0000000000000000000045 /* RCAAppDelegate+TemplateLaunch.swift in Sources */,
+				BF0000000000000000000046 /* RCAAppDelegate+VisibilityAndSharing.swift in Sources */,
+				BF0000000000000000000039 /* AssistantStateSnapshotStore.swift in Sources */,
+				BF000000000000000000004C /* AssistantSharedModelContainerFactory.swift in Sources */,
+				BF000000000000000000000C /* SharedModelStore.swift in Sources */,
+				BF0000000000000000000085 /* FeatureCenterModule.swift in Sources */,
+				BF0000000000000000000086 /* FeatureCenterSettingsView.swift in Sources */,
+				BF0000000000000000000087 /* ShortcutAssistantView.swift in Sources */,
+				BF0000000000000000000017 /* Utils.swift in Sources */,
+				BF0000000000000000000090 /* AssistantLocalization.swift in Sources */,
+				BF0000000000000000000010 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PHS0000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF000000000000000000001C /* AssistantFinderExtension.swift in Sources */,
+				BF0000000000000000000020 /* AuthorizedDirectoryRecord.swift in Sources */,
+				BF0000000000000000000021 /* AssistantContextModels.swift in Sources */,
+				BF0000000000000000000050 /* OpenWithApplication.swift in Sources */,
+				BF0000000000000000000051 /* AuthorizedDirectory.swift in Sources */,
+				BF0000000000000000000052 /* FavoriteDirectory.swift in Sources */,
+				BF0000000000000000000053 /* ContextQuickAction.swift in Sources */,
+				BF0000000000000000000054 /* NewFileTemplate.swift in Sources */,
+				BF0000000000000000000091 /* AssistantLocalization.swift in Sources */,
+				BF0000000000000000000023 /* Constants.swift in Sources */,
+				BF000000000000000000003E /* AuthorizedDirectoryRecoveryCoordinator.swift in Sources */,
+				BF0000000000000000000026 /* SharedPreferences.swift in Sources */,
+				BF000000000000000000003B /* FinderContextMenuComposer.swift in Sources */,
+				BF0000000000000000000022 /* AssistantLogger.swift in Sources */,
+				BF0000000000000000000029 /* Utils.swift in Sources */,
+				BF0000000000000000000025 /* ExtensionMessageBus.swift in Sources */,
+				BF000000000000000000003C /* FinderSelectionContextResolver.swift in Sources */,
+				BF000000000000000000003D /* AssistantStateSnapshotStore.swift in Sources */,
+				BF0000000000000000000055 /* AssistantSharedModelContainerFactory.swift in Sources */,
+				BF000000000000000000001F /* SharedModelStore.swift in Sources */,
+				BF0000000000000000000024 /* Extension+.swift in Sources */,
+				BF000000000000000000001E /* AssistantRuntimeState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEP0000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = TGT0000000000000000000002 /* AssistantFinderExtension */;
+			targetProxy = PRX000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		VG0000000000000000000001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FR0000000000000000000064 /* en */,
+				FR0000000000000000000065 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		VG0000000000000000000002 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FR0000000000000000000066 /* en */,
+				FR0000000000000000000067 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFG0000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFG0000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFG0000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = RightClickAssistantPro/RightClickAssistantPro.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = ATX6SQ3HRM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RightClickAssistantPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "右键工具Pro";
+				INFOPLIST_KEY_CFBundleName = "右键工具Pro";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rightPro.touch.com;
+				PRODUCT_NAME = "右键工具Pro";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFG0000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = RightClickAssistantPro/RightClickAssistantPro.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
+				"CODE_SIGN_INJECT_BASE_ENTITLEMENTS[sdk=macosx*]" = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = ATX6SQ3HRM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RightClickAssistantPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "右键工具Pro";
+				INFOPLIST_KEY_CFBundleName = "右键工具Pro";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rightPro.touch.com;
+				PRODUCT_NAME = "右键工具Pro";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = RightPro;
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFG0000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AssistantFinderExtension/AssistantFinderExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = ATX6SQ3HRM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssistantFinderExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "右键工具Pro";
+				INFOPLIST_KEY_CFBundleName = "右键工具Pro";
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rightPro.touch.com.ext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFG0000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AssistantFinderExtension/AssistantFinderExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
+				"CODE_SIGN_INJECT_BASE_ENTITLEMENTS[sdk=macosx*]" = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = ATX6SQ3HRM;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AssistantFinderExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "右键工具Pro";
+				INFOPLIST_KEY_CFBundleName = "右键工具Pro";
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rightPro.touch.com.ext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = RightProExt;
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFG0000000000000000000001 /* Build configuration list for PBXProject "RightClickAssistantPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG0000000000000000000010 /* Debug */,
+				CFG0000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFG0000000000000000000003 /* Build configuration list for PBXNativeTarget "RightClickAssistantPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG0000000000000000000012 /* Debug */,
+				CFG0000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFG0000000000000000000004 /* Build configuration list for PBXNativeTarget "AssistantFinderExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG0000000000000000000014 /* Debug */,
+				CFG0000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		PKG0000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+		PKG0000000000000000000002 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		PKG0000000000000000000003 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKG0000000000000000000002 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		PKG0000000000000000000004 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKG0000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		PKG0000000000000000000005 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKG0000000000000000000002 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		PKG0000000000000000000006 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PKG0000000000000000000001 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = PRJ000000000000000000000B /* Project object */;
+}
