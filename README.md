@@ -13,6 +13,7 @@
 ![macOS 12+](https://img.shields.io/badge/macOS-12.0%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-5-orange?logo=swift&logoColor=white)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/赞助-Sponsor-ea4aaa?logo=githubsponsors&logoColor=white)](#sponsor)
 
 简体中文 | [English](#english)
 
@@ -81,6 +82,18 @@ scripts/                       打包与本地测试环境清理脚本
 ## 🤝 参与贡献
 
 欢迎提交 Issue 和 Pull Request！提交 PR 前请确保项目可以正常编译。
+
+<a name="sponsor"></a>
+
+## ☕ 赞助
+
+如果这个项目对你有帮助，欢迎请作者喝杯咖啡，你的支持是项目持续维护的动力 ❤️
+
+<p>
+<img src=".github/sponsor/alipay.png" width="200" alt="支付宝收款码">
+</p>
+
+从 [Mac App Store](https://apps.apple.com/cn/app/rightmenupro-new-file-creator/id6777939731) 安装、给项目点个 ⭐ Star，同样是很大的支持。
 
 ## 📄 许可证
 
@@ -166,6 +179,16 @@ scripts/                       Packaging and local test-environment cleanup scri
 ### 🤝 Contributing
 
 Issues and pull requests are welcome! Please make sure the project builds before submitting a PR.
+
+### ☕ Sponsor
+
+If this project helps you, consider buying the author a coffee — your support keeps the project maintained ❤️
+
+<p>
+<img src=".github/sponsor/alipay.png" width="200" alt="Alipay">
+</p>
+
+Installing from the [Mac App Store](https://apps.apple.com/cn/app/rightmenupro-new-file-creator/id6777939731) or giving the repo a ⭐ Star helps a lot too.
 
 ### 📄 License
 
