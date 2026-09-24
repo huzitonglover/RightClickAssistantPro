@@ -2,11 +2,11 @@
 
 <img src="RightClickAssistantPro/Assets.xcassets/AppIcon.appiconset/assistant-appicon-256.png" width="128" alt="App Icon">
 
-# 超级右键专业版 · 右键工具 Pro
+# 右键工具 Pro · RightMenu Pro
 
-**RightClick Assistant Pro — 为 macOS Finder 打造的开源超级右键菜单增强工具**
+**开源的 Mac 超级右键菜单增强工具，专业版功能全部开源**
 
-又名：超级右键、超级右键专业版、超级右键助手、右键助手 Pro、RightMenu Pro
+右键新建文件 · 更换文件夹图标 · 复制路径 · 加密压缩 · 批量重命名
 
 [![Download on the Mac App Store](https://img.shields.io/badge/Mac_App_Store-下载-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/cn/app/rightmenupro-new-file-creator/id6777939731)
 [![Build](https://github.com/huzitonglover/RightClickAssistantPro/actions/workflows/build.yml/badge.svg)](https://github.com/huzitonglover/RightClickAssistantPro/actions/workflows/build.yml)
@@ -86,7 +86,9 @@ scripts/                       打包与本地测试环境清理脚本
 
 源代码基于 [GNU GPL v3.0](LICENSE) 开源。
 
-「右键工具 Pro」「超级右键专业版」等名称及 App 图标归作者所有，不在开源许可范围内。基于本项目的衍生作品请使用不同的名称和图标。项目中出现的第三方品牌图标（如 QQ、微信、Google、Apple、Microsoft Office 等）的商标权归各自所有者，仅用于标识对应应用，不在本项目许可范围内。
+「右键工具 Pro」「RightMenu Pro」名称及 App 图标归作者所有，不在开源许可范围内。基于本项目的衍生作品请使用不同的名称和图标。
+
+本项目是独立开发的开源软件，与 App Store 上名为「超级右键」「超级右键专业版」的其他应用及其开发者无任何关联。文中「超级右键」仅用于描述增强版右键菜单这类功能。项目中出现的第三方品牌图标（如 QQ、微信、Google、Apple、Microsoft Office 等）的商标权归各自所有者，仅用于标识对应应用，不在本项目许可范围内。
 
 ## 🙏 致谢
 
@@ -99,7 +101,7 @@ scripts/                       打包与本地测试环境清理脚本
 
 ## English
 
-**RightClick Assistant Pro** (a.k.a. RightMenu Pro, 超级右键专业版) is an open-source Finder context-menu (right-click menu) enhancer for macOS.
+**RightClick Assistant Pro** (RightMenu Pro) is an open-source Finder context-menu (right-click menu) enhancer for macOS.
 
 **Features:** create new files from templates (Office, iWork, WPS, Markdown, PSD, AI…), change folder icons, copy path / file name, copy / move / cut / paste, batch rename, clean up empty folders, encrypted ZIP compression and extraction, open in Terminal, QR code recognition, image text extraction (OCR), screenshots, AirDrop, show / hide hidden files, lock screen, and more.
 
