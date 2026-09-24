@@ -7,6 +7,7 @@
 **为 macOS Finder 打造的开源右键菜单增强工具**
 
 [![Download on the Mac App Store](https://img.shields.io/badge/Mac_App_Store-下载-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/cn/app/rightmenupro-new-file-creator/id6777939731)
+[![Build](https://github.com/huzitonglover/RightClickAssistantPro/actions/workflows/build.yml/badge.svg)](https://github.com/huzitonglover/RightClickAssistantPro/actions/workflows/build.yml)
 ![macOS 12+](https://img.shields.io/badge/macOS-12.0%2B-blue)
 ![Swift](https://img.shields.io/badge/Swift-5-orange?logo=swift&logoColor=white)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)](LICENSE)
